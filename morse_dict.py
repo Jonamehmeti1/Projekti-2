@@ -11,3 +11,4 @@ MORSE_CODE = {
     '0': '-----',
     ' ': '/'
 }
+DECODE_MORSE = {v: k for k, v in MORSE_CODE.items()}
