@@ -9,6 +9,13 @@ def play_morse(morse):
     for symbol in morse:
         if symbol == '.':
             winsound.Beep(frequency, dot_duration)
-        
-        
+        elif symbol == '-':
+            winsound.Beep(frequency, dash_duration)
+        elif symbol == ' ':
+            time.sleep(0.2)
+        elif symbol == '/':
+            time.sleep(0.6)
+
+  
+
 
