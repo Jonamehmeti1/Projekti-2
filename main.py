@@ -1,7 +1,7 @@
 from encode import encode
 from decode import decode1
 from sound import play_morse
-from morse_dict import MORSE_CODE, DECODE_MORSE
+from morse import MORSE_CODE, DECODE_MORSE
 
 choice = input("Shkruaj 'enkriptim' ose 'dekriptim': ")
 
